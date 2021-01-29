@@ -1,3 +1,0 @@
-git urls 
-frontend:https://github.com/kadambarikhedkar/expense-frontend
-backend:https://github.com/kadambarikhedkar/expense-backend

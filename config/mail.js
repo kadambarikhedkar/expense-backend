@@ -45,7 +45,7 @@ let sendHtmlMail=(senderName,subject)=>{
     from: 'def831024@gmail.com',
     to: senderName,
     subject: subject,
-    html: '<h4>Hello,</h4><h5>Copy paste below link in new tab<br><a>http://localhost:4200/update-password/'+senderName+'</a></h5>'
+    html: '<h4>Hello,</h4><h5>Copy paste below link in new tab<br><a>http://expense-splitter.s3-website.ap-south-1.amazonaws.com/update-password/'+senderName+'</a></h5>'
   };
   
   transporter.sendMail(mailOptions, function(error, info){
